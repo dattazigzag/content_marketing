@@ -90,8 +90,22 @@ Now is the perfect time to revisit this approach, especially since companies lik
 
 ---
 
-### 🛠️ Things we have tried recently, here at zigzag Berlin
+### 🛠️ Things we have tried recently
 
 People talk about boring Industry applications, we want to have some fun … As designers and people who craft experiences we like to sketch in physical to understand the affordances and limitations of technologies and tools to be then able to craft better future, products, services and experiences.
 
-…
+#### Motion as an input (accelerometer data)
+
+<img src="assets/gesture_process.png" width="100%" alt="theory_math">
+
+
+
+**What else can we do with accelerometer data?**
+
+#### Sound as an input (mic data)
+
+**What else can we do with mic data?**
+
+#### Image as an input (cam data)
+
+Sensor fusion ...
