@@ -4,23 +4,24 @@ Repository to hold markdown files for articles.
 
 ## Rules
 
-- Directory naming rule
+1. Directory naming rule
 
 ```bash
 # Directory path example
 [your_short_name]/Art_[article no.]_[short_title]
 ```
 
-- Name the article file `README.md` in its directory to enable automatic rendering when viewing that directory on GitHub.
-- All the assets must be stored in a assets sub directory.
+2. Name the article file `README.md` in its directory to enable automatic rendering when viewing that directory on GitHub.
+3. All the assets must be stored in a assets sub directory.
   
 ```bash
 # Directory path example
 [your_short_name]/Art_[article no.]_[short_title]/assets/
 ```
 
-- An article must have a cover image. Cover is size: and is called `_cover.png`
-- Amongst all the assets, if using gifs, they must be resized to 320 px. In markdown it is usually done using html tags.
+4. An article must have a cover image and it's size must be: 1500x750 (for medium) or 1500x600 (for github).
+5. The cover image must be called: `_cover.png`, so that it is always on the top of the directory.
+6. Amongst all the assets, if you are using gifs, they must be resized to 320 px. In markdown it is usually done using html tags.
 
 ```bash
 # Directory path example
