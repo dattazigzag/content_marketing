@@ -1,6 +1,7 @@
 # Beyond LLMs: Bridging the gap Between Machine Learning and the Physical World
 
-![notion_cover.png](assets/notion_cover.png | width=300)
+<!-- ![notion_cover.png](assets/notion_cover.png) -->
+<img src="assets/_cover.png" width="100%" alt="cover">
 
 ## While LLMs dominate headlines, they aren't well-suited for embedding intelligence in everyday devices. So where else should we look, and what alternatives can we explore?
 
@@ -15,7 +16,8 @@ We know AI explorations gained popularity and acceptability because of transform
 
 At its core, it's text-based—and there's nothing inherently wrong with that. After all, computers convert everything into numbers anyway, whether it's text or images.
 
-![obvious.gif](assets/obvious.gif)
+<!-- ![obvious.gif](assets/obvious.gif) -->
+<img src="assets/obvious.gif" width="320" alt="obvious">
 
 ## We like intelligence but are we implementing it correctly?
 
@@ -23,12 +25,14 @@ The stated approach works well for many current use cases. We're even seeing sec
 
 But where's the catch?
 
-![I mean.gif](assets/i_mean.gif)
+<!-- ![I mean.gif](assets/i_mean.gif) -->
+<img src="assets/i_mean.gif" width="320" alt="i mean">
 
 1. **💸 Cost:** Every ping and response comes with a monetary cost in the form of token usage.
     > As I write this article and use AI services to correct my grammar, I pay a cost
 
-    ![Electricity Bill.gif](assets/electricity_bill.gif)
+    <!-- ![Electricity Bill.gif](assets/electricity_bill.gif) -->
+    <img src="assets/electricity_bill.gif" width="320" alt="electricity bill">
 
     Companies are testing different ways to make money from AI, both for businesses and regular users. For example, Amazon recently invested $5 billion in Anthropic (as of Nov 2024). This makes sense because Anthropic uses Amazon's cloud services (AWS), and Amazon makes its own computer chips. But here's something interesting: Anthropic recently raised prices for regular users of their newest AI model, Claude Sonnet. This price increase is unusual compared to how most companies conduct business.
 
