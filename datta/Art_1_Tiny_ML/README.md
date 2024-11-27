@@ -80,6 +80,8 @@ While companies like [archetypeai](https://www.archetypeai.io/) are taking a sen
 
 Now is the perfect time to revisit this approach, especially since companies like [EdgeImpulse](https://edgeimpulse.com/) have created an excellent one-stop shop for developers working with embedded systems and physical products. While enterprise solutions like AWS Lambda exist for larger applications, let's focus on these simpler yet powerful tools to under what we as designers can do with them.
 
+---
+
 ### 🛠️ Things we have tried recently, here at zigzag Berlin
 
 People talk about boring Industry applications, we want to have some fun … As designers and people who craft experiences we like to sketch in physical to understand the affordances and limitations of technologies and tools to be then able to craft better future, products, services and experiences.
