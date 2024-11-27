@@ -88,23 +88,29 @@ While companies like [archetypeai](https://www.archetypeai.io/) are taking a sen
 
 Now is the perfect time to revisit this approach, especially since companies like [EdgeImpulse](https://edgeimpulse.com/) have created an excellent one-stop shop for developers working with embedded systems and physical products. While enterprise solutions like AWS Lambda exist for larger applications, let's focus on these simpler yet powerful tools to under what we as designers can do with them.
 
+<img src="assets/how_programming_varies.png" width="80%" alt="theory_math">
+
+> Traditional programming vs Machine learning | Source: Arduino Blog
+
 ---
 
 ### 🛠️ Things we have tried recently
 
 People talk about boring Industry applications, we want to have some fun … As designers and people who craft experiences we like to sketch in physical to understand the affordances and limitations of technologies and tools to be then able to craft better future, products, services and experiences.
 
-<img src="assets/how_programming_varies.png" width="80%" alt="theory_math">
-
-> Traditional programming vs Machine learning | Source: Arduino Blog
-
 #### Motion as an input (accelerometer data)
+
+Motion input has many potential applications. For example, vibrations can help detect anomalies in industrial equipment, or as mentioned earlier, your smartwatch can analyze motion data to predict abnormal behavior.
+
+In an example below, we used an off-the-shelf component (Arduino Nano BLE 33 sense) packed with various sensors which comes with a relatively powerful embedded microcontroller. With this, we quickly prototyped a system to collect and classify broad arm gestures, linking different motions to user-definable actions (think of the old "if this, then that" concept).
+
+*The whole inference took less than 15 ms to occur and was running completely onboard without any internet connection.*
 
 <img src="assets/gesture_process.png" width="100%" alt="theory_math">
 
+<br>
 
-
-**What else can we do with accelerometer data?**
+> What else can we do with accelerometer data where low power operation, portability, and responsiveness are essential??
 
 #### Sound as an input (mic data)
 
@@ -112,4 +118,4 @@ People talk about boring Industry applications, we want to have some fun … As 
 
 #### Image as an input (cam data)
 
-Sensor fusion ...
+Other sensors and sensor fusion ...
