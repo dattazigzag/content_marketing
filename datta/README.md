@@ -48,4 +48,3 @@ your_short_name/
 
          1. Review the issue: [markdownlint md033](https://github.com/DavidAnson/markdownlint/blob/v0.36.1/doc/md033.md)
          2. Configure exceptions: [VS Code markdownlint configuration](https://github.com/DavidAnson/vscode-markdownlint#configure)
-
