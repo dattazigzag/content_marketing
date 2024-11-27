@@ -2,30 +2,37 @@
 
 Repository to hold markdown files for articles.
 
-## Rules
+## Guidelines
 
-1. Directory naming rule
+1. Directory Organization
+   1. Base Path Format: `[your_short_name]/Art_[article no.]_[short_title]`
+   2. Example: `john_doe/Art_01_react_hooks`
+2. Essential Files
+   1. Main Article: Name it `README.md` (ensures automatic rendering on GitHub)
+   2. Cover Image: Must be named `_cover.png`
+      1. Medium size: 1500x750 pixels
+      2. GitHub size: 1500x600 pixels
+      3. Cover img embedding:
 
-```bash
-# Directory path example
-[your_short_name]/Art_[article no.]_[short_title]
-```
+         ```html
+         <img src="assets/_cover.png" width="100%" alt="Description">
+         ```
 
-2. Name the article file `README.md` in its directory to enable automatic rendering when viewing that directory on GitHub.
-3. All the assets must be stored in a assets sub directory.
-  
-```bash
-# Directory path example
-[your_short_name]/Art_[article no.]_[short_title]/assets/
-```
+3. Asset Management
+   1. Location: All assets must be in `assets/` subdirectory
+   2. Full Path: `[your_short_name]/Art_[article no.]_[short_title]/assets/`
+4. Asset embeddings:
+   1. GIF Requirements:
+      1. Must be resized to 320px width
+      2. Use HTML tags for embedding gifs and other images:
 
-4. An article must have a cover image and it's size must be: 1500x750 (for medium) or 1500x600 (for github).
-5. The cover image must be called: `_cover.png`, so that it is always on the top of the directory.
-6. Amongst all the assets, if you are using gifs, they must be resized to 320 px. In markdown it is usually done using html tags.
+         ```html
+         <img src="assets/animation.gif" width="320" alt="Description">
+         ```
 
-```bash
-# Directory path example
-<img src="[PATH to article dir]/assets/[file_name].gif" width="320" alt="[some short descriptive text]">
-```
+         ### Note for Editors
 
-> Your editor’s linter may complain. More about it [here](https://github.com/DavidAnson/markdownlint/blob/v0.36.1/doc/md033.md) and how to fix it [here](https://github.com/DavidAnson/vscode-markdownlint#configure).
+         If your markdown linter flags HTML tags, you can:
+
+         1. Review the issue: [markdownlint md033](https://github.com/DavidAnson/markdownlint/blob/v0.36.1/doc/md033.md)
+         2. Configure exceptions: [VS Code markdownlint configuration](https://github.com/DavidAnson/vscode-markdownlint#configure)
