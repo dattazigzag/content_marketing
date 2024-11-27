@@ -98,7 +98,7 @@ Now is the perfect time to revisit this approach, especially since companies lik
 
 People talk about boring Industry applications, we want to have some fun … As designers and people who craft experiences we like to sketch in physical to understand the affordances and limitations of technologies and tools to be then able to craft better future, products, services and experiences.
 
-#### Motion as an input (accelerometer data)
+#### Motion (accelerometer data)
 
 Motion input has many potential applications. For example, vibrations can help detect anomalies in industrial equipment, or as mentioned earlier, your smartwatch can analyze motion data to predict abnormal behavior.
 
@@ -110,12 +110,27 @@ In an example below, we used an off-the-shelf component (Arduino Nano BLE 33 sen
 
 <br>
 
-> What else can we do with accelerometer data where low power operation, portability, and responsiveness are essential??
+> What else can we do with accelerometer data where low power operation, portability, and responsiveness are essential?
 
-#### Sound as an input (mic data)
+#### Sound/Audio (mic data)
 
-**What else can we do with mic data?**
+You may already know that when you call upon your smart speaker with that wake word ("Hey Google" / "Hey Alexa"), that "wake word" detection happens locally, on a co-processor. That's TinyML in action.
+Of course these processors can't do continious Natural Language Processing and that is not the purpose here.
+
+What if that smart home sensor could detect if you've left your faucet running by just listening to ambient sound, and what if you could teach your Roomba correct navigation using simple words?  
+
+In one example, we used an off-the-shelf Arduino Nano BLE 33 sense—a component packed with various sensors, a powerful embedded microcontroller, and a PDM microphone. With this setup, we quickly prototyped a system to collect and classify baby cry audio data 👶 to determine why a baby might be crying. No need to send your baby's cries to OpenAI.
+
+<img src="assets/audio_process.png" width="100%" alt="theory_math">
+
+<br>
+
+> What else can we do with audio data where low power operation, privacy, and responsiveness are essential?
 
 #### Image as an input (cam data)
 
 Other sensors and sensor fusion ...
+
+Interaction Design ...
+
+Conclusion and cry to connect ...
