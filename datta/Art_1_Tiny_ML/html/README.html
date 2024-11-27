@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Beyond LLMs&colon; Bridging the gap Between Machine Learning and the Physical World</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="beyond-llms-bridging-the-gap-between-machine-learning-and-the-physical-world">Beyond LLMs: Bridging the gap Between Machine Learning and the Physical World</h1>
+<p><img src="file:////Users/saurabhdatta/Documents/content_marketing/datta/Art_1_Tiny_ML/assets/notion_cover.png" alt="notion_cover.png"></p>
+<h2 id="while-llms-dominate-headlines-they-arent-well-suited-for-embedding-intelligence-in-everyday-devices-so-where-else-should-we-look-and-what-alternatives-can-we-explore">While LLMs dominate headlines, they aren't well-suited for embedding intelligence in everyday devices. So where else should we look, and what alternatives can we explore?</h2>
+<blockquote>
+<p>TinyML (Tiny Machine Learning) offers a promising path for embedding efficient intelligence in consumer electronics without the need for massive server farms and data centers to operate and can be  resilient to connectivity loss. Through smaller quantized models, we can develop targeted solutions for both new and existing products. Here we explore this technology's current capabilities, its implications for design, and the business value it delivers.</p>
+</blockquote>
+<hr>
+<h2 id="but-first-lets-face-it--stating-the-obvious">But first, let’s face it … (stating the obvious)</h2>
+<p>We know AI explorations gained popularity and acceptability because of transformers and LLMs and because of the natural language-based interface. But they were made possible because of the technologies that came before that—yes, the internet, alongside cheap server farms, massive storage, etc.—all leading to connectivity and data sharing, making it possible to source and curate information, train and deploy models, and make them accessible via API, so when you call that OpenAI API, you get a response almost instantly.</p>
+<p>At its core, it's text-based—and there's nothing inherently wrong with that. After all, computers convert everything into numbers anyway, whether it's text or images.</p>
+<p><img src="file:////Users/saurabhdatta/Documents/content_marketing/datta/Art_1_Tiny_ML/assets/obvious.gif" alt="obvious.gif"></p>
+<h2 id="we-like-intelligence-but-are-we-implementing-it-correctly">We like intelligence but are we implementing it correctly?</h2>
+<p>The stated approach works well for many current use cases. We're even seeing sectors like IoT being rebranded as AIIoT (AI + IoT), as the combination of connectivity and intelligence offers natural advantages. The typical scenarios involve sending data packets wirelessly to servers where they're analyzed and &quot;understood&quot; to determine the next actions. With fast network bandwidth, these processes happen seamlessly.</p>
+<p>But where's the catch?</p>
+<p><img src="file:////Users/saurabhdatta/Documents/content_marketing/datta/Art_1_Tiny_ML/assets/i_mean.gif" alt="I mean.gif"></p>
+<ol>
+<li>
+<p><strong>💸 Cost:</strong> Every ping and response comes with a monetary cost in the form of token usage.</p>
+<blockquote>
+<p>As I write this article and use AI services to correct my grammar, I pay a cost</p>
+</blockquote>
+<p><img src="file:////Users/saurabhdatta/Documents/content_marketing/datta/Art_1_Tiny_ML/assets/electricity_bill.gif" alt="Electricity Bill.gif"></p>
+<p>Companies are testing different ways to make money from AI, both for businesses and regular users. For example, Amazon recently invested $5 billion in Anthropic (as of Nov 2024). This makes sense because Anthropic uses Amazon's cloud services (AWS), and Amazon makes its own computer chips. But here's something interesting: Anthropic recently raised prices for regular users of their newest AI model, Claude Sonnet. This price increase is unusual compared to how most companies conduct business.</p>
+<p>On the other hand, for product companies, the intelligent processors in devices need to be cost-effective for manufacturing and scalability. While running pre-trained models doesn't require massive computing power, even my latest M4 MacBook Pro still takes time to run 70 Bn parameter models locally (as of Nov 2024). That's why probably we won't see state-of-the-art Nvidia GPUs in smart sinks or coffee machines anytime soon—even the <a href="https://developer.nvidia.com/buy-jetson">Nvidia Jetson</a> or <a href="https://www.raspberrypi.com/products/ai-hat/">PI AI HAT</a> are probably overkill for these applications.</p>
+</li>
+<li>
+<p><strong>⚡️ Energy:</strong> Then there's the matter of energy usage. Not a lot, but still something to consider if we are aiming for building future-proof infrastructures.</p>
+<p><img src="file:////Users/saurabhdatta/Documents/content_marketing/datta/Art_1_Tiny_ML/assets/energy.gif" alt="Energy.gif"></p>
+<blockquote>
+<p><a href="https://www.sustainabilitybynumbers.com/p/ai-energy-demand">Data centres use around 1 to 2% of the world’s electricity. When cryptocurrency is included, it’s around 2%.</a></p>
+</blockquote>
+</li>
+<li>
+<p><strong>Unforeseen circumstances:</strong> Say you're on a ship in the middle of the ocean and aren't subscribed to Starlink …</p>
+<p><img src="file:////Users/saurabhdatta/Documents/content_marketing/datta/Art_1_Tiny_ML/assets/shipping_conatiner.gif" alt="Shipping conatiner.gif"></p>
+<p>What about internet blackouts (say you're in an autonomous car somewhere with little to no internet), or not having internet at all? Even better, what if you're a hospital and probably don't want any data even on &quot;on-premise&quot; servers (for obvious security and privacy reasons)?</p>
+</li>
+</ol>
+<hr>
+<h3 id="stepping-back-i-wonder-are-we-using-sledgehammers-to-crack-nuts">Stepping back I wonder: <em>Are we using sledgehammers to crack nuts?</em></h3>
+<p><img src="file:////Users/saurabhdatta/Documents/content_marketing/datta/Art_1_Tiny_ML/assets/hammer_to_crack_nuts.gif" alt="hammer to crack nuts.gif"></p>
+<p>All these models that everyday folks like me use are <strong>general purpose models</strong>—trained on vast amounts of data covering everything imaginable.</p>
+<p>Currently, for specific use cases, we typically take one of these models and apply RAG to fine-tune it (essentially a last-minute training approach). Some of us then quantize the model to reduce its memory footprint and size, making it run more efficiently.</p>
+<p>Could we instead use targeted machine learning approaches rather than AGI to solve specific tasks?</p>
+<hr>
+<h3 id="this-new-kid-is-not-a-new-kid-in-the-block-after-all">This new kid is not a new kid in the block after all</h3>
+<p>While companies like <a href="https://www.archetypeai.io/">archetypeai</a> are taking a sensor fusion approach to understand the physical world, there's something magical about low-key approaches. Tiny Machine Learning has been around for a while, but you may consider the whole movement a bit of an underbelly since it doesn't get as much attention in media as the other fellow.</p>
+<p><strong>So what is it in Layman’s language without going too much into the theory?</strong></p>
+<p><img src="file:////Users/saurabhdatta/Documents/content_marketing/datta/Art_1_Tiny_ML/assets/theory_math.gif" alt="TheoryMath.gif"></p>
+<blockquote>
+<p>💡</p>
+<p>If regular AI is like sending your kid to an expensive boarding school with unlimited resources, TinyML is like teaching them to be brilliant while living in a tiny house. It's the art of squeezing sophisticated machine learning into devices smaller than your AirPods case, running on less power than it takes to charge your phone. No cloud required, no hefty electricity bills - just lean, mean, learning machines.</p>
+</blockquote>
+<h3 id="or">Or</h3>
+<blockquote>
+<p>💡</p>
+<p>Think of it as when  machine learning goes on a diet to fit into microcontrollers. It's the technology that lets your smartwatch predict heart problems without phoning home to the cloud, and helps your security camera tell the difference between your cat and a burglar using less power than a LED bulb. Think of it as AI's minimalist movement - doing more with less.&quot;</p>
+</blockquote>
+<p>Now is the perfect time to revisit this approach, especially since companies like <a href="https://edgeimpulse.com/">EdgeImpulse</a> have created an excellent one-stop shop for developers working with embedded systems and physical products. While enterprise solutions like AWS Lambda exist for larger applications, let's focus on these simpler yet powerful tools to under what we as designers can do with them.</p>
+<hr>
+<h3 id="️things-we-have-tried-recently-here-at-zigzag-berlin">🛠️ Things we have tried recently, here at zigzag Berlin</h3>
+<p>People talk about boring Industry applications, we want to have some fun … As designers and people who craft experiences we like to sketch in physical to understand the affordances and limitations of technologies and tools to be then able to craft better future, products, services and experiences.</p>
+<p>…</p>
+
+            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+            
+        </body>
+        </html>
