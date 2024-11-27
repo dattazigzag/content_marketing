@@ -40,13 +40,15 @@ But where's the catch?
 
 2. **⚡️ Energy:** Then there's the matter of energy usage. Not a lot, but still something to consider if we are aiming for building future-proof infrastructures.
 
-    ![Energy.gif](assets/energy.gif)
+    <!-- ![Energy.gif](assets/energy.gif) -->
+    <img src="assets/energy.gif" width="320" alt="energy">
 
     > [Data centres use around 1 to 2% of the world’s electricity. When cryptocurrency is included, it’s around 2%.](https://www.sustainabilitybynumbers.com/p/ai-energy-demand)
 
 3. **Unforeseen circumstances:** Say you're on a ship in the middle of the ocean and aren't subscribed to Starlink …
 
-    ![Shipping conatiner.gif](assets/shipping_conatiner.gif)
+    <!-- ![Shipping conatiner.gif](assets/shipping_conatiner.gif) -->
+    <img src="assets/shipping_conatiner.gif" width="320" alt="shipping_conatiner">
 
     What about internet blackouts (say you're in an autonomous car somewhere with little to no internet), or not having internet at all? Even better, what if you're a hospital and probably don't want any data even on "on-premise" servers (for obvious security and privacy reasons)?
 
@@ -54,7 +56,8 @@ But where's the catch?
 
 ### Stepping back I wonder: *Are we using sledgehammers to crack nuts?*
 
-![hammer to crack nuts.gif](assets/hammer_to_crack_nuts.gif)
+<!-- ![hammer to crack nuts.gif](assets/hammer_to_crack_nuts.gif) -->
+<img src="assets/hammer_to_crack_nuts.gif" width="320" alt="hammer_to_crack_nuts">
 
 All these models that everyday folks like me use are **general purpose models**—trained on vast amounts of data covering everything imaginable.
 
@@ -70,7 +73,8 @@ While companies like [archetypeai](https://www.archetypeai.io/) are taking a sen
 
 **So what is it in Layman’s language without going too much into the theory?**
 
-![TheoryMath.gif](assets/theory_math.gif)
+<!-- ![TheoryMath.gif](assets/theory_math.gif) -->
+<img src="assets/theory_math.gif" width="320" alt="theory_math">
 
 > 💡
 >
