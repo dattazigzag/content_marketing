@@ -94,6 +94,10 @@ Now is the perfect time to revisit this approach, especially since companies lik
 
 People talk about boring Industry applications, we want to have some fun … As designers and people who craft experiences we like to sketch in physical to understand the affordances and limitations of technologies and tools to be then able to craft better future, products, services and experiences.
 
+<img src="assets/how_programming_varies.png" width="100%" alt="theory_math">
+
+> Traditional programming vs Machine learning | Source: Arduino Blog
+
 #### Motion as an input (accelerometer data)
 
 <img src="assets/gesture_process.png" width="100%" alt="theory_math">
