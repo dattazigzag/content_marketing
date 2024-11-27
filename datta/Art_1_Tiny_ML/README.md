@@ -1,6 +1,6 @@
 # Beyond LLMs: Bridging the gap Between Machine Learning and the Physical World
 
-![notion_cover.png](assets/notion_cover.png)
+![notion_cover.png](assets/notion_cover.png | width=300)
 
 ## While LLMs dominate headlines, they aren't well-suited for embedding intelligence in everyday devices. So where else should we look, and what alternatives can we explore?
 
