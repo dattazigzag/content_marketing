@@ -144,22 +144,24 @@ Today, many inexpensive microcontrollers like the ESP32 series have sufficient o
 
 [Lego Trigger](https://www.rubenvandervleuten.com/lego-trigger)
 
-<img src="assets/lego_trigger.png" width="80%" alt="theory_math">
+<img src="assets/lego_trigger.png" width="50%" alt="theory_math">
 
 <br>
 
 [X-Ray Classification and Analysis](https://docs.edgeimpulse.com/experts/image-projects/brainchip-akida-xray-classification)
 
-<img src="assets/xray.png" width="80%" alt="theory_math">
+<img src="assets/xray.png" width="50%" alt="theory_math">
 
 ---
 
+<br> 
+<br>
 
+> 💡 Also,   there's the potential for sensor fusion, where multiple low-power devices with various sensors work together to make sense of data, understand context, and take necessary actions. This approach could be particularly valuable for consumer electronics and industrial sensor manufacturers who already have networks of sensor nodes—imagine how these existing systems could be cleverly enhanced with new capabilities.
 
-
-
-... Other sensors and sensor fusion ...
+## Technology is all good, but what about design?
 
 ... Interaction Design ...
 
-... Conclusion and cry to connect ...
+## In summary
+
