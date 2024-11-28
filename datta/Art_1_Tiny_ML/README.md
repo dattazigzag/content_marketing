@@ -77,13 +77,11 @@ While companies like [archetypeai](https://www.archetypeai.io/) are taking a sen
 <img src="assets/theory_math.gif" width="320" alt="theory_math">
 
 > 💡
->
 > If regular AI is like sending your kid to an expensive boarding school with unlimited resources, TinyML is like teaching them to be brilliant while living in a tiny house. It's the art of squeezing sophisticated machine learning into devices smaller than your AirPods case, running on less power than it takes to charge your phone. No cloud required, no hefty electricity bills - just lean, mean, learning machines.
 
 ### Or
 
 > 💡
->
 > Think of it as when  machine learning goes on a diet to fit into microcontrollers. It's the technology that lets your smartwatch predict heart problems without phoning home to the cloud, and helps your security camera tell the difference between your cat and a burglar using less power than a LED bulb. Think of it as AI's minimalist movement - doing more with less."
 
 Now is the perfect time to revisit this approach, especially since companies like [EdgeImpulse](https://edgeimpulse.com/) have created an excellent one-stop shop for developers working with embedded systems and physical products. While enterprise solutions like AWS Lambda exist for larger applications, let's focus on these simpler yet powerful tools to under what we as designers can do with them.
@@ -98,9 +96,9 @@ Now is the perfect time to revisit this approach, especially since companies lik
 
 People talk about boring Industry applications, we want to have some fun … As designers and people who craft experiences we like to sketch in physical to understand the affordances and limitations of technologies and tools to be then able to craft better future, products, services and experiences.
 
-#### Motion (accelerometer data)
+### 👋🏻 Motion
 
-Motion input has many potential applications. For example, vibrations can help detect anomalies in industrial equipment, or as mentioned earlier, your smartwatch can analyze motion data to predict abnormal behavior.
+Motion input has many potential applications. For example, vibrations can help detect anomalies in industrial equipment, or as mentioned earlier, your smartwatch can analyze motion data to predict abnormal behavior. What if you want to study Raindeer's grazing behavior in Lapland 🦌 ? potentials are endless!
 
 In an example below, we used an off-the-shelf component (Arduino Nano BLE 33 sense) packed with various sensors which comes with a relatively powerful embedded microcontroller. With this, we quickly prototyped a system to collect and classify broad arm gestures, linking different motions to user-definable actions (think of the old "if this, then that" concept).
 
@@ -111,8 +109,11 @@ In an example below, we used an off-the-shelf component (Arduino Nano BLE 33 sen
 <br>
 
 > What else can we do with accelerometer data where low power operation, portability, and responsiveness are essential?
+>
 
-#### Sound/Audio (mic data)
+---
+
+### 🔈 Audio
 
 You may already know that when you call upon your smart speaker with that wake word ("Hey Google" / "Hey Alexa"), that "wake word" detection happens locally, on a co-processor. That's TinyML in action.
 Of course these processors can't do continious Natural Language Processing and that is not the purpose here.
@@ -127,10 +128,33 @@ In one example, we used an off-the-shelf Arduino Nano BLE 33 sense—a component
 
 > What else can we do with audio data where low power operation, privacy, and responsiveness are essential?
 
-#### Image as an input (cam data)
+---
 
-Other sensors and sensor fusion ...
+### 👀 Vision
 
-Interaction Design ...
+Today, many inexpensive microcontrollers like the ESP32 series have sufficient onboard memory and processing power. Meanwhile, popular image processing models like YOLO, MobileNet, and FOMO are becoming highly optimized to run on mobile and low-power devices.
 
-Conclusion and cry to connect ...
+> 💡
+> We're currently working on an example to evaluate its potential (both serious and fun), but meanwhile we've found two examples that are both fun and demonstrate what's possible.
+
+[Lego Trigger](https://www.rubenvandervleuten.com/lego-trigger)
+
+<img src="assets/lego_trigger.png" width="80%" alt="theory_math">
+
+<br>
+
+[X-Ray Classification and Analysis](https://docs.edgeimpulse.com/experts/image-projects/brainchip-akida-xray-classification)
+
+<img src="assets/xray.png" width="80%" alt="theory_math">
+
+---
+
+
+
+
+
+... Other sensors and sensor fusion ...
+
+... Interaction Design ...
+
+... Conclusion and cry to connect ...
