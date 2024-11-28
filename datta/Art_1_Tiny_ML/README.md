@@ -161,7 +161,14 @@ Today, many inexpensive microcontrollers like the ESP32 series have sufficient o
 
 ## Technology is all good, but what about design?
 
-... Interaction Design ...
+Embedded systems development can be scary even for the brave hearts but it has come a long way. With systems and tools at place for deisgners to really tinker with the technology, it has opened the flood gates for us to focus on other important things than getting things up and running.
 
-## In summary
+With technologies like TinyML getting easier to play with we deisgners are now focusing on discovering new use cases as well as thinking of how to make these really usable and accesible to end users. 
+
+> 💡 Focusing on other areas like onboarding experiences, customization and personalization through user training (where end users do the training themselves), interfaces for setting custom actions, and clear monitoring systems are some of the valuable areas that would be important to design for.  
+
+### Footer
+
+> We at zigzag are trying to talk less and do more (even though these were a lot of words 😂). We are always on the lookout for "the new" and lead through exploration; we sketch "in real", we think with our hands and our explorations inform our deisgn decisions. We bring in our years of expertise in digital design and are now focusing towards new areas of design and technology.
+We are always happy to learn more from you and share our views and ideas. Do not hesitate to enage, we do not bite.
 
