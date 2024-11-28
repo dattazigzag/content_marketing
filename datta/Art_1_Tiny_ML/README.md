@@ -104,7 +104,7 @@ In an example below, we used an off-the-shelf component (Arduino Nano BLE 33 sen
 
 *The whole inference took less than 15 ms to occur and was running completely onboard without any internet connection.*
 
-<img src="assets/gesture_process.png" width="100%" alt="theory_math">
+<img src="assets/gesture_1.png" width="80%" alt="theory_math">
 
 <br>
 
