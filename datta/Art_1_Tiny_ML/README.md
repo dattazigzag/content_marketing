@@ -100,12 +100,16 @@ People talk about boring Industry applications, we want to have some fun … As 
 
 Motion input has many potential applications. For example, vibrations can help detect anomalies in industrial equipment, or as mentioned earlier, your smartwatch can analyze motion data to predict abnormal behavior. What if you want to study Raindeer's grazing behavior in Lapland 🦌 ? potentials are endless!
 
-In an example below, we used an off-the-shelf component (Arduino Nano BLE 33 sense) packed with various sensors which comes with a relatively powerful embedded microcontroller. With this, we quickly prototyped a system to collect and classify broad arm gestures, linking different motions to user-definable actions (think of the old "if this, then that" concept).
-
-*The whole inference took less than 15 ms to occur and was running completely onboard without any internet connection.*
+<br>
 
 <img src="assets/gesture_1.png" width="50%" alt="theory_math"> 
+
+In an example above, we used an off-the-shelf component (Arduino Nano BLE 33 sense) packed with various sensors which comes with a relatively powerful embedded microcontroller. With this, we quickly prototyped a system to collect and classify broad arm gestures, linking different motions to user-definable actions (think of the old "if this, then that" concept).
+
+<br>
 <img src="assets/gesture_2.png" width="50%" alt="theory_math">
+
+*The whole inference took less than 15 ms to occur and was running completely onboard without any internet connection.*
 
 <br>
 
