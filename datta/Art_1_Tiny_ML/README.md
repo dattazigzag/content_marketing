@@ -98,13 +98,13 @@ People talk about boring Industry applications, we want to have some fun … As 
 
 ### 👋🏻 Motion
 
-Motion input has many potential applications. For example, vibrations can help detect anomalies in industrial equipment, or as mentioned earlier, your smartwatch can analyze motion data to predict abnormal behavior. What if you want to study Raindeer's grazing behavior in Lapland 🦌 ? potentials are endless!
+Motion input has many potential applications. For example, vibrations can help detect anomalies in industrial equipment, or as mentioned earlier, your smartwatch can analyze motion data to predict abnormal behavior. What if you want to study Raindeer's grazing behavior in Lapland 🦌 ? Potentials are endless!
 
 <br>
 
 <img src="assets/gesture_1.png" width="50%" alt="theory_math"> 
 
-In an example above, we used an off-the-shelf component (Arduino Nano BLE 33 sense) packed with various sensors which comes with a relatively powerful embedded microcontroller. With this, we quickly prototyped a system to collect and classify broad arm gestures, linking different motions to user-definable actions (think of the old "if this, then that" concept).
+In an example above, I used an off-the-shelf component (Arduino Nano BLE 33 sense) packed with various sensors which comes with a relatively powerful embedded microcontroller. With this, we quickly prototyped a system to collect and classify broad arm gestures, linking different motions to user-definable actions (think of the old "if this, then that" concept).
 
 <br>
 <img src="assets/gesture_2.png" width="50%" alt="theory_math">
@@ -125,7 +125,7 @@ Of course these processors can't do continious Natural Language Processing and t
 
 What if that smart home sensor could detect if you've left your faucet running by just listening to ambient sound, and what if you could teach your Roomba correct navigation using simple words?  
 
-In one example, we used an off-the-shelf Arduino Nano BLE 33 sense—a component packed with various sensors, a powerful embedded microcontroller, and a PDM microphone. With this setup, we quickly prototyped a system to collect and classify baby cry audio data 👶 to determine why a baby might be crying. No need to send your baby's cries to OpenAI.
+In one example, I used an off-the-shelf Arduino Nano BLE 33 sense—a component packed with various sensors, a powerful embedded microcontroller, and a PDM microphone. With this setup, we quickly prototyped a system to collect and classify baby cry audio data 👶 to determine why a baby might be crying. No need to send your baby's cries to OpenAI.
 
 <img src="assets/audio_process.png" width="100%" alt="theory_math">
 
@@ -163,7 +163,7 @@ Today, many inexpensive microcontrollers like the ESP32 series have sufficient o
 
 Embedded systems development can be scary even for the brave hearts but it has come a long way. With systems and tools at place for deisgners to really tinker with the technology, it has opened the flood gates for us to focus on other important things than getting things up and running.
 
-With technologies like TinyML getting easier to play with we deisgners are now focusing on discovering new use cases as well as thinking of how to make these really usable and accesible to end users. 
+With technologies like TinyML getting easier to play with, we designers are now focusing on discovering new use cases as well as thinking of how to make these really usable and accessible to end users.
 
 > 💡 Focusing on other areas like onboarding experiences, customization and personalization through user training (where end users do the training themselves), interfaces for setting custom actions, and clear monitoring systems are some of the valuable areas that would be important to design for.  
 
