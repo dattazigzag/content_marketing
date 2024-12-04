@@ -3,7 +3,7 @@
 <!-- ![notion_cover.png](assets/notion_cover.png) -->
 <img src="assets/_cover.png" width="100%" alt="cover">
 
-## While LLMs dominate headlines, they aren't well-suited for embedding intelligence in everyday devices. So where else should we look, and what alternatives can we explore?
+## While Large Language Models (LLMs) dominate headlines, they aren't well-suited for embedding intelligence in everyday devices. So where else should we look, and what alternatives can we explore?
 
 > TinyML (Tiny Machine Learning) offers a promising path for embedding efficient intelligence in consumer electronics without the need for massive server farms and data centers to operate and can be  resilient to connectivity loss. Through smaller quantized models, we can develop targeted solutions for both new and existing products. Here we explore this technology's current capabilities, its implications for design, and the business value it delivers.
 >
