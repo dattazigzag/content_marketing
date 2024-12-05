@@ -84,7 +84,7 @@ While companies like [archetypeai](https://www.archetypeai.io/) are taking a sen
 > 💡
 > Think of it as when  machine learning goes on a diet to fit into microcontrollers. It's the technology that lets your smartwatch predict heart problems without phoning home to the cloud, and helps your security camera tell the difference between your cat and a burglar using less power than a LED bulb. Think of it as AI's minimalist movement - doing more with less."
 
-Now is the perfect time to revisit this approach, especially since companies like [EdgeImpulse](https://edgeimpulse.com/) have created an excellent one-stop shop for developers working with embedded systems and physical products. While enterprise solutions like AWS Lambda exist for larger applications, let's focus on these simpler yet powerful tools to under what we as designers can do with them.
+Now is the perfect time to revisit this approach, especially since companies like [EdgeImpulse](https://edgeimpulse.com/) have created an excellent one-stop shop for developers working with embedded systems and physical products. While enterprise solutions like AWS Lambda exist for larger applications, let's focus on these simpler yet powerful tools to understand what we as designers can do with them.
 
 <img src="assets/how_programming_varies.png" width="80%" alt="theory_math">
 
