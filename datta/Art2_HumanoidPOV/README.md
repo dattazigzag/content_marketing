@@ -47,24 +47,25 @@ We found that currently:
 
 Talking about perception …
 
-![image.png](assets/Siniz.jpg)
 
-> *It’s time to get away from one dimensional understanding of ‘uncanny valley’.*
->
-> Siniz Kim - Partner and Co-Founder zigzag.is
+> *It’s time to get away from one dimensional understanding of ‘uncanny valley’. Key considerations include safety, multi-modality, role adaptability, and intelligence.*
+
+<img src="assets/Siniz.jpg" width="125" alt="siniz">
+
+Siniz Kim - Partner and Co-Founder zigzag.is
 
 The uncanny valley goes beyond just reactions to human-like appearance -
 it involves behavior, context, and emotional factors working together.
 Rather than responding to isolated features, people react to the complete experience.
 Building familiarity over time helps overcome initial discomfort.
 
-> Key considerations include safety, multi-modality, role adaptability, and intelligence.
-> 
+---
 
-![image.png](assets/Flo.png)
+<img src="assets/Flo.png" width="125" alt="flo">
+
+Florian Dusch - Partner and Co-Founder zigzag.is
 
 > *Although many affordances depend on the humanoid's specific role, we ultimately developed key design principles for humanoid interactions, role agnostic:*
-> 
 
 1. Human acceptance is paramount
 2. Actions should be transparent & traceable
@@ -73,10 +74,16 @@ Building familiarity over time helps overcome initial discomfort.
 5. Ethical integrity should be at the very core
 6. Privacy should be respected and safeguarded
 
+---
+
 Our Principles has helped us with decision-making by aiding to align across multiple disciplines and stakeholders involved and acted as a barometer, enabling scalability, and preserving insights that would future-proof the efforts.
 
-During tenuous hours and weeks for concept development and prototyping human robot interactions (to some what influence our design decisions), we concluded that there are so many interesting design challenges that need to be solved but acting on these individual challenges need some thinking and isolating them is hard. 
+During tenuous hours and weeks for concept development and prototyping human robot interactions (to some what influence our design decisions), we concluded that there are so many interesting design challenges that need to be solved but acting on these individual challenges need some thinking and isolating them is hard.
 
-One recurring observation is that many elements come into play: sound effects, motion, size, shapes, lights, and new smart materials—all orchestrated by intelligence. Beyond making robots work and achieve human-like dexterity, we believe there needs to be an effective authoring tool to design and prototype these interactions and experiences. Such a tool could also serve as a digital twin, allowing us to quickly prototype interactions and transfer them directly to the humanoid.
+One recurring observation is that many elements come into play: sound effects, motion, size, shapes, lights, and new smart materials—all orchestrated by intelligence.
+
+*Beyond making robots work and achieve human-like dexterity, we believe there needs to be an effective authoring tool to design and prototype these interactions and experiences.*
+
+Such a tool could also serve as a digital twin, allowing us to quickly prototype interactions and transfer them directly to the humanoid.
 
 What are your thoughts?  Our explorations gave us a peek into numerous exciting opportunities that we could explore together — always considering your business needs and staying grounded in realistic possibilities.
