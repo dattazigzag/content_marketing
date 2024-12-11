@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Learnings from working on early stage humanoids - human robot interaction</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="learnings-from-working-on-early-stage-humanoids---human-robot-interaction">Learnings from working on early stage humanoids - human robot interaction</h1>
+<p>In late September we were asked to work with humanoids,
+to define early best-in-class UX/UI principles,
+and to transform complex systems into intuitive experiences; very broad if you ask me.</p>
+<h2 id="natural-skeptics-as-we-are">Natural skeptics as we are</h2>
+<p>We had our prejudices, so naturally we asked: <strong>Why humanoids though?</strong></p>
+<p>Not that humanoids were not popping up left and right but after a lot of digging and back and forth, we realized that, leading tech giants and venture funds are betting big on key humanoid startups. We understood early that probably the robotics industry is here to stay and grow.</p>
+<ol>
+<li>It is one of the natural next steps to drive innovation and to create new application levels, combining all individual technological pillars, we have seen so far- as robotics combines everything.</li>
+<li>But to do so, it requires investment. Thus the companies need to show they can scale up and have a clear purpose to attract major backers.</li>
+<li>And so, finally, humanoids are gaining traction because they fit right into our existing world - from offices to factories - with minimal changes needed. Or, at least that’s how we are currently thinking. At-least, that’s what everyone thinks.</li>
+</ol>
+<br>
+<blockquote>
+<p><em>Cars, drones, and humanoid robots can scale to high volumes since
+they work in our existing infrastructure and the highest volume one is
+humanoid robots, of course, because we created the world for ourselves.</em></p>
+<p>Jen-Hsun &quot;Jensen&quot; Huang (CEO - NVIDIA)</p>
+</blockquote>
+<p>For a moment we thought, isn’t it same like autonomous driving,
+that we were trying to solve the mixed traffic problem, to make them fit in our world,
+and yet here we are still struggling. And, to be honest, we had to redesign roads.</p>
+<blockquote>
+<p>Hold that thought for a moment.</p>
+</blockquote>
+</aside>
+<h2 id="challenge-accepted">Challenge accepted</h2>
+<p>We thought “why not” and so jumped in.</p>
+<h3 id="our-research--our-insights">Our research → Our Insights</h3>
+<p>Explored interaction expectations, use-case scenarios, and took into account academic perspectives to inform our design decisions. By analyzing industry' focus areas and identifying gaps in user experience within the humanoid context, we established some foundations for meaningful human-robot interactions and future steps.</p>
+<p>We found that currently:</p>
+<ol>
+<li>Companies prioritize features over purpose, as finding real-world use cases and market fit remains challenging for these new product categories.</li>
+<li>Basic robotics challenges remain unsolved, with varying progress across companies. Most focus on core capabilities before adding advanced features.</li>
+<li>Design approaches differ between human-like robots and task-specific machines, with adoption depending on use case.</li>
+<li>Key concerns include job displacement, ethical considerations, and data privacy. Academic discussions are ongoing, but frameworks for human-robot interaction remain undefined.</li>
+</ol>
+<p>Talking about perception …</p>
+<blockquote>
+<p><em>It’s time to get away from one dimensional understanding of ‘uncanny valley’. Key considerations include safety, multi-modality, role adaptability, and intelligence.</em></p>
+</blockquote>
+<img src="file:////Users/saurabhdatta/Documents/content_marketing/datta/Art2_HumanoidPOV/assets/Siniz.jpg" width="125" alt="siniz">
+<p>Siniz Kim - Partner and Co-Founder <a href="http://zigzag.is">zigzag.is</a></p>
+<p>The uncanny valley goes beyond just reactions to human-like appearance -
+it involves behavior, context, and emotional factors working together.
+Rather than responding to isolated features, people react to the complete experience.
+Building familiarity over time helps overcome initial discomfort.</p>
+<hr>
+<img src="file:////Users/saurabhdatta/Documents/content_marketing/datta/Art2_HumanoidPOV/assets/Flo.png" width="125" alt="flo">
+<p>Florian Dusch - Partner and Co-Founder <a href="http://zigzag.is">zigzag.is</a></p>
+<blockquote>
+<p><em>Although many affordances depend on the humanoid's specific role, we ultimately developed key design principles for humanoid interactions, role agnostic:</em></p>
+</blockquote>
+<ol>
+<li>Human acceptance is paramount</li>
+<li>Actions should be transparent &amp; traceable</li>
+<li>Behavior should be predictable &amp; consistent</li>
+<li>Interactions should be elegantly personalized</li>
+<li>Ethical integrity should be at the very core</li>
+<li>Privacy should be respected and safeguarded</li>
+</ol>
+<hr>
+<p>Our Principles has helped us with decision-making by aiding to align across multiple disciplines and stakeholders involved and acted as a barometer, enabling scalability, and preserving insights that would future-proof the efforts.</p>
+<p>During tenuous hours and weeks for concept development and prototyping human robot interactions (to some what influence our design decisions), we concluded that there are so many interesting design challenges that need to be solved but acting on these individual challenges need some thinking and isolating them is hard.</p>
+<p>One recurring observation is that many elements come into play: sound effects, motion, size, shapes, lights, and new smart materials—all orchestrated by intelligence.</p>
+<p><em>Beyond making robots work and achieve human-like dexterity, we believe there needs to be an effective authoring tool to design and prototype these interactions and experiences.</em></p>
+<p>Such a tool could also serve as a digital twin, allowing us to quickly prototype interactions and transfer them directly to the humanoid.</p>
+<p>What are your thoughts?  Our explorations gave us a peek into numerous exciting opportunities that we could explore together — always considering your business needs and staying grounded in realistic possibilities.</p>
+
+            
+            
+        </body>
+        </html>
