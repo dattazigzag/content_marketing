@@ -35,7 +35,9 @@ But where's the catch?
 
     <!-- ![Electricity Bill.gif](assets/electricity_bill.gif) -->
     <!-- <img src="assets/electricity_bill.gif" width="320" alt="electricity bill"> -->
-    ![Electricity Bill.gif](assets/datacenters.png) 
+    ![Electricity Bill.gif](assets/kvistholt-photography-oZPwn40zCK4-unsplash.jpg)
+
+    **src:** [Unslpash](https://unsplash.com/photos/photo-of-computer-cables-oZPwn40zCK4)
 
     Companies are testing different ways to make money from AI, both for businesses and regular users. For example, Amazon recently invested $5 billion in Anthropic (as of Nov 2024). This makes sense because Anthropic uses Amazon's cloud services (AWS), and Amazon makes its own computer chips. But here's something interesting: Anthropic recently raised prices for regular users of their newest AI model, Claude Sonnet. This price increase is unusual compared to how most companies conduct business.
 
@@ -80,6 +82,8 @@ While companies like [archetypeai](https://www.archetypeai.io/) are taking a sen
 **So what is it in Layman’s language without going too much into the theory?**
 
 ![TheoryMath.gif](assets/TinyML.png)
+
+**src:** [ACM SIGHGRAPH](https://www.sigarch.org/tiny-machine-learning-the-future-of-ml-is-tiny-and-bright/)
 <!-- <img src="assets/theory_math.gif" width="320" alt="theory_math"> -->
 
 > 💡
@@ -108,14 +112,18 @@ Motion input has many potential applications. For example, vibrations can help d
 
 <!-- <img src="assets/gesture_1.png" width="50%" alt="theory_math">  -->
 
-![ ](assets/device.jpeg)
-![alt text](assets/gesture.jpeg)
+![device moving](assets/device.jpeg)
+![device moving](assets/gesture.jpeg)
+
+**src:** Saurabh Datta
 
 In an example above, I used an off-the-shelf component (Arduino Nano BLE 33 sense) packed with various sensors which comes with a relatively powerful embedded microcontroller. With this, we quickly prototyped a system to collect and classify broad arm gestures, linking different motions to user-definable actions (think of the old "if this, then that" concept).
 
 <!-- <img src="assets/gesture_2.png" width="50%" alt="theory_math"> -->
 
 ![alt text](<assets/training and classification.png>)
+
+**src:** Saurabh Datta (2021)
 
 *The whole inference took less than 15 ms to occur and was running completely onboard without any internet connection.*
 
@@ -137,6 +145,8 @@ In one example, I used an off-the-shelf Arduino Nano BLE 33 sense—a component 
 
 <img src="assets/audio_process.png" width="100%" alt="theory_math">
 
+**src:** Saurabh Datta (2024)
+
 <br>
 
 > What else can we do with audio data where low power operation, privacy, and responsiveness are essential?
@@ -154,11 +164,16 @@ Today, many inexpensive microcontrollers like the ESP32 series have sufficient o
 
 <img src="assets/lego_trigger.png" width="100%" alt="theory_math">
 
+**src:** [Ruben van der Vleuten](https://www.rubenvandervleuten.com/work/lego-trigger)
+
 <br>
 
 [X-Ray Classification and Analysis](https://docs.edgeimpulse.com/experts/image-projects/brainchip-akida-xray-classification)
 
 <img src="assets/xray.png" width="100%" alt="theory_math">
+
+
+**src:** [Edge Impulse](https://www.edgeimpulse.com/blog/ai-xray-vision/)
 
 ---
 
@@ -176,6 +191,8 @@ With technologies like TinyML getting easier to play with, we designers are now 
 > 💡 Focusing on other areas like onboarding experiences, customization and personalization through user training (where end users do the training themselves), interfaces for setting custom actions, and clear monitoring systems are some of the valuable areas that would be important to design for.  
 
 ![alt text](<assets/future UI.jpeg>)
+
+**src**: Saurabh Datta (2021)
 
 ### Footer
 
