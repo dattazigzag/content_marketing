@@ -1,5 +1,7 @@
 # Learnings from working on early stage humanoids - human robot interaction
 
+<img src="assets/_cover.png" width="100%" alt="cover">
+
 In late September we were asked to work with humanoids,
 to define early best-in-class UX/UI principles,
 and to transform complex systems into intuitive experiences; very broad if you ask me.
