@@ -84,6 +84,15 @@ One recurring observation is that many elements come into play: sound effects, m
 
 *Beyond making robots work and achieve human-like dexterity, we believe there needs to be an effective authoring tool to design and prototype these interactions and experiences.*
 
-Such a tool could also serve as a digital twin, allowing us to quickly prototype interactions and transfer them directly to the humanoid.
+Such a tool could also serve as a [digital twin](https://blogs.nvidia.com/blog/what-is-a-digital-twin/), allowing us to quickly prototype interactions and transfer them directly to the humanoid.
+
+![alt text](<assets/Existing UIs.png>)
+There exists a plathora of industrial path planning softwares, some for specific brands for their robots and others are brand agnostic
+
+![alt text](<assets/Unity Robotics hub.png>)
+Several companies are developing simulation software, including a promising collaboration between Siemens and Unity (Game Engine). Nvidia has also created their own simulation environment.
+
+![alt text](<assets/Future UIs.png>)
+However, we rarely see a comprehensive authoring tool in the wild that allows designers, animators, and engineers to collaboratively create, test, visualize, and export humanoid behaviors and characteristics. 
 
 What are your thoughts?  Our explorations gave us a peek into numerous exciting opportunities that we could explore together — always considering your business needs and staying grounded in realistic possibilities.
