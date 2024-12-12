@@ -19,6 +19,7 @@ At its core, it's text-based—and there's nothing inherently wrong with that. A
 <!-- ![obvious.gif](assets/obvious.gif) -->
 <!-- <img src="assets/obvious.gif" width="320" alt="obvious"> -->
 ![alt text](assets/mnist.png)
+**src:** [Example of the MNIST database.](https://www.mdpi.com/2076-3417/9/15/3169)
 
 ## We like intelligence but are we implementing it correctly?
 
@@ -45,6 +46,7 @@ But where's the catch?
     <!-- ![Energy.gif](assets/energy.gif) -->
     <!-- <img src="assets/energy.gif" width="320" alt="energy"> -->
     ![Energy.gif](assets/windfarm.png)
+    **src:** [Unsplash](https://unsplash.com/photos/windmill-surrounded-by-grass-during-daytime-w_a40DuyPAc)
 
     > [Data centres use around 1 to 2% of the world’s electricity. When cryptocurrency is included, it’s around 2%.](https://www.sustainabilitybynumbers.com/p/ai-energy-demand)
 
@@ -52,6 +54,7 @@ But where's the catch?
 
     ![Shipping conatiner.gif](assets/oilrig.png)
     <!-- <img src="assets/shipping_conatiner.gif" width="320" alt="shipping_conatiner"> -->
+    **src:** [Unsplash](https://unsplash.com/photos/black-wooden-dock-on-body-of-water-during-sunset-Hf1Wk-T4Lxo)
 
     What about internet blackouts (say you're in an autonomous car somewhere with little to no internet), or not having internet at all? Even better, what if you're a hospital and probably don't want any data even on "on-premise" servers (for obvious security and privacy reasons)?
 
@@ -91,7 +94,7 @@ Now is the perfect time to revisit this approach, especially since companies lik
 
 <img src="assets/how_programming_varies.png" width="80%" alt="theory_math">
 
-> Traditional programming vs Machine learning | Source: Arduino Blog
+**src:** [Arduino blog - Traditional programming vs Machine learning Arduino Blog](https://docs.arduino.cc/tutorials/nano-33-ble-sense/edge-impulse/)
 
 ---
 
