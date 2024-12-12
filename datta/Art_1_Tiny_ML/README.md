@@ -115,7 +115,7 @@ Motion input has many potential applications. For example, vibrations can help d
 ![device moving](assets/device.jpeg)
 ![device moving](assets/gesture.jpeg)
 
-**src:** Saurabh Datta
+**src:** Saurabh Datta (2021)
 
 In an example above, I used an off-the-shelf component (Arduino Nano BLE 33 sense) packed with various sensors which comes with a relatively powerful embedded microcontroller. With this, we quickly prototyped a system to collect and classify broad arm gestures, linking different motions to user-definable actions (think of the old "if this, then that" concept).
 
