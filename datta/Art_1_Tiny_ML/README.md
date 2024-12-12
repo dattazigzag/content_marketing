@@ -103,14 +103,16 @@ People talk about boring Industry applications, we want to have some fun … As 
 
 Motion input has many potential applications. For example, vibrations can help detect anomalies in industrial equipment, or as mentioned earlier, your smartwatch can analyze motion data to predict abnormal behavior. What if you want to study Raindeer's grazing behavior in Lapland 🦌 ? Potentials are endless!
 
-<br>
+<!-- <img src="assets/gesture_1.png" width="50%" alt="theory_math">  -->
 
-<img src="assets/gesture_1.png" width="50%" alt="theory_math"> 
+![ ](assets/device.jpeg)
+![alt text](assets/gesture.jpeg)
 
 In an example above, I used an off-the-shelf component (Arduino Nano BLE 33 sense) packed with various sensors which comes with a relatively powerful embedded microcontroller. With this, we quickly prototyped a system to collect and classify broad arm gestures, linking different motions to user-definable actions (think of the old "if this, then that" concept).
 
-<br>
-<img src="assets/gesture_2.png" width="50%" alt="theory_math">
+<!-- <img src="assets/gesture_2.png" width="50%" alt="theory_math"> -->
+
+![alt text](<assets/training and classification.png>)
 
 *The whole inference took less than 15 ms to occur and was running completely onboard without any internet connection.*
 
@@ -147,13 +149,13 @@ Today, many inexpensive microcontrollers like the ESP32 series have sufficient o
 
 [Lego Trigger](https://www.rubenvandervleuten.com/lego-trigger)
 
-<img src="assets/lego_trigger.png" width="50%" alt="theory_math">
+<img src="assets/lego_trigger.png" width="100%" alt="theory_math">
 
 <br>
 
 [X-Ray Classification and Analysis](https://docs.edgeimpulse.com/experts/image-projects/brainchip-akida-xray-classification)
 
-<img src="assets/xray.png" width="50%" alt="theory_math">
+<img src="assets/xray.png" width="100%" alt="theory_math">
 
 ---
 
@@ -169,6 +171,8 @@ Embedded systems development can be scary even for the brave hearts but it has c
 With technologies like TinyML getting easier to play with, we designers are now focusing on discovering new use cases as well as thinking of how to make these really usable and accessible to end users.
 
 > 💡 Focusing on other areas like onboarding experiences, customization and personalization through user training (where end users do the training themselves), interfaces for setting custom actions, and clear monitoring systems are some of the valuable areas that would be important to design for.  
+
+![alt text](<assets/future UI.jpeg>)
 
 ### Footer
 
