@@ -17,7 +17,8 @@ We know AI explorations gained popularity and acceptability because of transform
 At its core, it's text-based—and there's nothing inherently wrong with that. After all, computers convert everything into numbers anyway, whether it's text or images.
 
 <!-- ![obvious.gif](assets/obvious.gif) -->
-<img src="assets/obvious.gif" width="320" alt="obvious">
+<!-- <img src="assets/obvious.gif" width="320" alt="obvious"> -->
+![alt text](assets/mnist.png)
 
 ## We like intelligence but are we implementing it correctly?
 
@@ -26,13 +27,14 @@ The stated approach works well for many current use cases. We're even seeing sec
 But where's the catch?
 
 <!-- ![I mean.gif](assets/i_mean.gif) -->
-<img src="assets/i_mean.gif" width="320" alt="i mean">
+<!-- <img src="assets/i_mean.gif" width="320" alt="i mean"> -->
 
 1. **💸 Cost:** Every ping and response comes with a monetary cost in the form of token usage.
     > As I write this article and use AI services to correct my grammar, I pay a cost
 
     <!-- ![Electricity Bill.gif](assets/electricity_bill.gif) -->
-    <img src="assets/electricity_bill.gif" width="320" alt="electricity bill">
+    <!-- <img src="assets/electricity_bill.gif" width="320" alt="electricity bill"> -->
+    ![Electricity Bill.gif](assets/datacenters.png) 
 
     Companies are testing different ways to make money from AI, both for businesses and regular users. For example, Amazon recently invested $5 billion in Anthropic (as of Nov 2024). This makes sense because Anthropic uses Amazon's cloud services (AWS), and Amazon makes its own computer chips. But here's something interesting: Anthropic recently raised prices for regular users of their newest AI model, Claude Sonnet. This price increase is unusual compared to how most companies conduct business.
 
@@ -41,14 +43,15 @@ But where's the catch?
 2. **⚡️ Energy:** Then there's the matter of energy usage. Not a lot, but still something to consider if we are aiming for building future-proof infrastructures.
 
     <!-- ![Energy.gif](assets/energy.gif) -->
-    <img src="assets/energy.gif" width="320" alt="energy">
+    <!-- <img src="assets/energy.gif" width="320" alt="energy"> -->
+    ![Energy.gif](assets/windfarm.png)
 
     > [Data centres use around 1 to 2% of the world’s electricity. When cryptocurrency is included, it’s around 2%.](https://www.sustainabilitybynumbers.com/p/ai-energy-demand)
 
 3. **Unforeseen circumstances:** Say you're on a ship in the middle of the ocean and aren't subscribed to Starlink …
 
-    <!-- ![Shipping conatiner.gif](assets/shipping_conatiner.gif) -->
-    <img src="assets/shipping_conatiner.gif" width="320" alt="shipping_conatiner">
+    ![Shipping conatiner.gif](assets/oilrig.png)
+    <!-- <img src="assets/shipping_conatiner.gif" width="320" alt="shipping_conatiner"> -->
 
     What about internet blackouts (say you're in an autonomous car somewhere with little to no internet), or not having internet at all? Even better, what if you're a hospital and probably don't want any data even on "on-premise" servers (for obvious security and privacy reasons)?
 
@@ -57,7 +60,7 @@ But where's the catch?
 ### Stepping back I wonder: *Are we using sledgehammers to crack nuts?*
 
 <!-- ![hammer to crack nuts.gif](assets/hammer_to_crack_nuts.gif) -->
-<img src="assets/hammer_to_crack_nuts.gif" width="320" alt="hammer_to_crack_nuts">
+<!-- <img src="assets/hammer_to_crack_nuts.gif" width="320" alt="hammer_to_crack_nuts"> -->
 
 All these models that everyday folks like me use are **general purpose models**—trained on vast amounts of data covering everything imaginable.
 
@@ -73,8 +76,8 @@ While companies like [archetypeai](https://www.archetypeai.io/) are taking a sen
 
 **So what is it in Layman’s language without going too much into the theory?**
 
-<!-- ![TheoryMath.gif](assets/theory_math.gif) -->
-<img src="assets/theory_math.gif" width="320" alt="theory_math">
+![TheoryMath.gif](assets/TinyML.png)
+<!-- <img src="assets/theory_math.gif" width="320" alt="theory_math"> -->
 
 > 💡
 > If regular AI is like sending your kid to an expensive boarding school with unlimited resources, TinyML is like teaching them to be brilliant while living in a tiny house. It's the art of squeezing sophisticated machine learning into devices smaller than your AirPods case, running on less power than it takes to charge your phone. No cloud required, no hefty electricity bills - just lean, mean, learning machines.
