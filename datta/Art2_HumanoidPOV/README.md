@@ -34,9 +34,9 @@ and yet here we are still struggling. And, to be honest, we had to redesign road
 
 ## Challenge accepted
 
-We thought “why not” and so jumped in.
+What an incredible chance we had to help shape how humans will interact with humanoid robots! Our whole team was buzzing with enthusiasm as we jumped into this exciting journey.
 
-### Our research → Our Insights
+### Our research → Our Insights (early days)
 
 Explored interaction expectations, use-case scenarios, and took into account academic perspectives to inform our design decisions. By analyzing industry' focus areas and identifying gaps in user experience within the humanoid context, we established some foundations for meaningful human-robot interactions and future steps.
 
@@ -84,17 +84,8 @@ During tenuous hours and weeks for concept development and prototyping human rob
 
 One recurring observation is that many elements come into play: sound effects, motion, size, shapes, lights, and new smart materials—all orchestrated by intelligence.
 
-*Beyond making robots work and achieve human-like dexterity, we believe there needs to be an effective authoring tool to design and prototype these interactions and experiences.*
+*Beyond making robots work and achieve human-like dexterity, we believe there need to be effective ways to understand and design these interactions and experiences in the real world and beyond academia.*
 
-Such a tool could also serve as a [digital twin](https://blogs.nvidia.com/blog/what-is-a-digital-twin/), allowing us to quickly prototype interactions and transfer them directly to the humanoid.
+### We would like to learn and join the journey
 
-![alt text](<assets/Existing UIs.png>)
-There exists a plathora of industrial path planning softwares, some for specific brands for their robots and others are brand agnostic
-
-![alt text](<assets/Unity Robotics hub.png>)
-Several companies are developing simulation software, including a promising collaboration between Siemens and Unity (Game Engine). Nvidia has also created their own simulation environment.
-
-![alt text](<assets/Future UIs.png>)
-However, we rarely see a comprehensive authoring tool in the wild that allows designers, animators, and engineers to collaboratively create, test, visualize, and export humanoid behaviors and characteristics. 
-
-What are your thoughts?  Our explorations gave us a peek into numerous exciting opportunities that we could explore together — always considering your business needs and staying grounded in realistic possibilities.
+What are your thoughts on this? Our explorations have revealed numerous exciting opportunities we could pursue together—always keeping your business needs in mind and staying grounded in realistic possibilities. If there's interest, we'll share our initial high-level learnings in upcoming posts.
