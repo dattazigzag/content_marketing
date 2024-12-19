@@ -43,7 +43,7 @@ Explored interaction expectations, use-case scenarios, and took into account aca
 We found that currently:
 
 1. Companies prioritize features over purpose, as finding real-world use cases and market fit remains challenging for these new product categories.
-2. Basic robotics challenges remain unsolved, with varying progress across companies. Most focus on core capabilities before adding advanced features.
+2. Some robotics challenges remain unsolved or are in development (mostly human dexterity related), with varying progress across companies. Most focus on core capabilities before adding advanced features.
 3. Design approaches differ between human-like robots and task-specific machines, with adoption depending on use case.
 4. Key concerns include job displacement, ethical considerations, and data privacy. Academic discussions are ongoing, but frameworks for human-robot interaction remain undefined.
 
