@@ -1,34 +1,30 @@
 # Learnings from working on early stage humanoids - human robot interaction
 
+## Posting Text / Caption
+> In this article, we explore the challenges and opportunities of developing humanoids and the intricacies when designing the interaction with humans. While companies focus on features rather than purpose, certain robotics challenges - especially those related to human dexterity - remain unsolved.
+> 
+> Ethical considerations, data privacy, and workforce disruptions are key concerns. The integration of humanoids is reshaping industries, raising questions not only about their physical appearance but also about their impact on jobs and employment dynamics.
+>
+> Despite these challenges, we are witnessing one of the most transformative shifts in decades - paving the way for groundbreaking innovations in robotics, human-machine collaboration, and industry evolution. The future holds immense potential. 
+
+
 <img src="assets/_cover.png" width="100%" alt="cover">
 
-In late September we were asked to work with humanoids,
-to define early best-in-class UX/UI principles,
-and to transform complex systems into intuitive experiences; very broad if you ask me.
+We had our prejudices, so naturally we asked: Why humanoids though? Not that humanoids were not popping up left and right but after a lot of digging and back and forth, we realized that leading tech giants and venture funds are betting big on key humanoid startups. We understood early that probably the robotics industry is here to stay and grow.
 
-## Natural skeptics as we are
-
-We had our prejudices, so naturally we asked: **Why humanoids though?**
-
-Not that humanoids were not popping up left and right but after a lot of digging and back and forth, we realized that, leading tech giants and venture funds are betting big on key humanoid startups. We understood early that probably the robotics industry is here to stay and grow.  
-
-1. It is one of the natural next steps to drive innovation and to create new application levels, combining all individual technological pillars, we have seen so far- as robotics combines everything.
+1. It is one of the natural next steps to drive innovation and to create new application levels, combining all individual technological pillars, we have seen so far - as robotics combines everything.
 2. But to do so, it requires investment. Thus the companies need to show they can scale up and have a clear purpose to attract major backers.
-3. And so, finally, humanoids are gaining traction because they fit right into our existing world - from offices to factories - with minimal changes needed. Or, at least that’s how we are currently thinking. At-least, that’s what everyone thinks. 
+3. And so, finally, humanoids are gaining traction because they fit right into our existing world - from offices to factories - with minimal changes needed. Or at least, that’s the assumption we’re making for now.
 
 <br>
 
-> *Cars, drones, and humanoid robots can scale to high volumes since
-> they work in our existing infrastructure and the highest volume one is
-> humanoid robots, of course, because we created the world for ourselves.*
->
-> Jen-Hsun "Jensen" Huang (CEO - NVIDIA)
+> “Cars, drones, and humanoid robots can scale to high volumes since they work in our existing infrastructure. The highest volume one, of course, is humanoid robots, because we created the world for ourselves.”
+> 
+> — Jen-Hsun "Jensen" Huang (CEO of NVIDIA) at the DealBook Summit in November 2023.
 
-For a moment we thought, isn’t it same like autonomous driving,
-that we were trying to solve the mixed traffic problem, to make them fit in our world,
-and yet here we are still struggling. And, to be honest, we had to redesign roads.
+For a moment, we thought: Isn't this the same as autonomous driving? We tried to solve the mixed-traffic problem, making them fit into our world - yet here we are, still struggling.
 
-> Hold that thought for a moment.
+We see humanoids as the physical manifestation of AI—or as the term was coined, "embodied AI". The challenges are vast but the opportunities and new use cases are also enormous.  
 
 </aside>
 
@@ -36,9 +32,9 @@ and yet here we are still struggling. And, to be honest, we had to redesign road
 
 What an incredible chance we had to help shape how humans will interact with humanoid robots! Our whole team was buzzing with enthusiasm as we jumped into this exciting journey.
 
-### Our research → Our Insights (early days)
+### Our Research and Our Insights - The Early Days
 
-Explored interaction expectations, use-case scenarios, and took into account academic perspectives to inform our design decisions. By analyzing industry' focus areas and identifying gaps in user experience within the humanoid context, we established some foundations for meaningful human-robot interactions and future steps.
+We explored interaction expectations, use-case scenarios, and took into account academic perspectives to inform our design decisions. By analyzing industry's focus areas and identifying gaps in user experience within the humanoid context, we established some foundations for meaningful human-robot interactions and future steps.
 
 We found that currently:
 
