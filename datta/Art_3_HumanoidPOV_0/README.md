@@ -36,26 +36,28 @@ What an incredible chance we had to help shape how humans will interact with hum
 
 We explored interaction expectations, use-case scenarios, and took into account academic perspectives to inform our design decisions. By analyzing industry's focus areas and identifying gaps in user experience within the humanoid context, we established some foundations for meaningful human-robot interactions and future steps.
 
-We found that currently:
+What we found out:
 
-1. Companies prioritize features over purpose, as finding real-world use cases and market fit remains challenging for these new product categories.
-2. Some robotics challenges remain unsolved or are in development (mostly human dexterity related), with varying progress across companies. Most focus on core capabilities before adding advanced features.
-3. Design approaches differ between human-like robots and task-specific machines, with adoption depending on use case.
-4. Key concerns include job displacement, ethical considerations, and data privacy. Academic discussions are ongoing, but frameworks for human-robot interaction remain undefined.
+1. While companies showcase impressive technical specifications (staged demos, walking speed, operating time, maximum lifting weight), the industry is still exploring real-world applications and market fit for these emerging robot categories.
+2. The integration challenge remains: how humanoid robots will seamlessly fit into our society and which use cases will provide meaningful value are questions the industry continues to address.
+3. Progress on complex robotics capabilities varies across companies, particularly in human-like dexterity. Most are building core functionalities before expanding to advanced features.
+4. The design spectrum ranges from highly anthropomorphic robots to task-optimized machines, with each approach finding its place depending on specific applications.
+5. The conversation around workforce evolution, ethical frameworks, and data governance is evolving alongside the technology, though comprehensive guidelines for human-robot interaction are still developing.
 
-Talking about perception …
+## Perception and Acceptance: A Natural Focus for Emerging Technology
 
+The perception of humanoids is a complex issue centered on two key areas: their potential impact on industrial job displacement and their physical appearance. 
 
-> *It’s time to get away from one dimensional understanding of ‘uncanny valley’. Key considerations include safety, multi-modality, role adaptability, and intelligence.*
+The latter creates an inherent tension between human and non-human qualities. As academia continues to focus on traditional discussions like the uncanny valley phenomenon, it often overlooks the practical implications of these technologies. 
+This phenomenon means the creepy feeling people get when something looks almost human but not quite right. 
 
-<img src="assets/Siniz.jpg" width="125" alt="siniz">
+> The term, introduced by the Japanese researcher Masahiro Mori in 1970, describes how near-human robots or computer-generated characters can cause discomfort due to their imperfections. 
 
-Siniz Kim - Partner and Co-Founder zigzag.is
+However, as Siniz Kim, Partner and Founder at zigzag, points out
 
-The uncanny valley goes beyond just reactions to human-like appearance -
-it involves behavior, context, and emotional factors working together.
-Rather than responding to isolated features, people react to the complete experience.
-Building familiarity over time helps overcome initial discomfort.
+> _It’s time to get away from a one-dimensional understanding of __uncanny valley__. Key considerations include safety, multi-modality, role adaptability, and intelligence._ These factors highlight the broader challenges and opportunities that come with humanoid robots.
+
+The uncanny valley goes beyond just reactions to human-like appearance - it involves behavior, context, and emotional factors working together. Rather than responding to isolated features, people react to the complete experience. Building familiarity over time helps overcome initial discomfort.
 
 ---
 
