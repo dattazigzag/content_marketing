@@ -41,9 +41,9 @@ We've developed a streamlined tool that makes camera data collection for Edge Im
 
 ### Why ESP32-CAM?
 
-While various camera options exist in the edge AI ecosystem - including SIPEED modules, Arduino Nicla Vision, industrial-grade Protenta, and OpenMV cameras - we chose the ESP32-CAM for several compelling reasons:
+While various camera options exist in the edge AI ecosystem - including [SIPEED modules](https://sipeed.com/solution), [Arduino Nicla Vision](https://docs.arduino.cc/hardware/nicla-vision), [industrial-grade Protenta](https://www.arduino.cc/pro/hardware-product-portenta-vision-shield/), and [OpenMV cameras](https://openmv.io/?srsltid=AfmBOoosgB-C9MItnlP3IU2b9ZFk1MMIADtriZtira1mYrOw5Ea5YgUw), [ESP-EYE](https://www.espressif.com/en/products/devkits/esp-eye/overview), [esp32 AI Thinker CAM](https://www.berrybase.de/esp32-cam-development-board-inkl.-ov2640-kameramodul) amnd many more - we chose the [Seeed Studio's XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) for several compelling reasons:
 
-1. **Affordability**: At under $10, it's one of the most cost-effective options for computer vision projects
+1. **Affordability**: It's one of the most cost-effective options for features and performance for computer vision projects
 2. **Accessibility**: Widely available and supported by a large community
 3. **Capability**: Despite its small size and low cost, it offers a surprisingly capable 2MP OV2640 camera
 4. **Versatility**: The ESP32 micro-controller provides Wi-Fi connectivity, making it ideal for our server approach
