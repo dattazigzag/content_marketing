@@ -61,29 +61,29 @@ The uncanny valley goes beyond just reactions to human-like appearance - it invo
 
 ---
 
-<img src="assets/Flo.png" width="125" alt="flo">
 
-Florian Dusch - Partner and Co-Founder zigzag.is
+Florian Dusch, Partner and Founder at zigzag, highlights the importance of a broader perspective, stating that
 
-> *Although many affordances depend on the humanoid's specific role, we ultimately developed key design principles for humanoid interactions, role agnostic:*
+> _although many affordances depend on the humanoid's specific role, we ultimately developed key design principles for humanoid interactions, role agnostic:_
 
-1. Human acceptance is paramount
-2. Actions should be transparent & traceable
-3. Behavior should be predictable & consistent
-4. Interactions should be elegantly personalized
-5. Ethical integrity should be at the very core
-6. Privacy should be respected and safeguarded
+1. _Human acceptance is paramount_
+2. _Actions should be transparent and traceable_
+3. _Behavior should be predictable and consistent_
+4. _Interactions should be elegantly personalized_
+5. _Ethical integrity should be at the very core_
+6. _Privacy should be respected and safeguarded_
+
+These principles emphasize the need for thoughtful design to ensure humanoid robots are both functional and socially accepted.
+Our principles have helped us with decision-making by aiding to align across multiple disciplines and stakeholders involved and acted as a barometer, enabling scalability, and preserving insights that would future-proof the efforts.
+
+During tenuous hours and weeks spent on concept development and prototyping human-robot interactions - aiming to inform our design decisions - we realized that while there are many fascinating design challenges to tackle, addressing them individually requires careful consideration, and isolating them is difficult.
+
+One recurring observation is that many elements come into play: sound effects, motion, size, shapes, lights, and new smart materials - all orchestrated by intelligent systems.
+
+> _Beyond making robots work and achieve human-like dexterity, we believe there need to be effective ways to understand and design these interactions and experiences in the real world and beyond academia._
 
 ---
 
-Our Principles has helped us with decision-making by aiding to align across multiple disciplines and stakeholders involved and acted as a barometer, enabling scalability, and preserving insights that would future-proof the efforts.
+## We want to keep learning and help define the field
 
-During tenuous hours and weeks for concept development and prototyping human robot interactions (to some what influence our design decisions), we concluded that there are so many interesting design challenges that need to be solved but acting on these individual challenges need some thinking and isolating them is hard.
-
-One recurring observation is that many elements come into play: sound effects, motion, size, shapes, lights, and new smart materials—all orchestrated by intelligence.
-
-*Beyond making robots work and achieve human-like dexterity, we believe there need to be effective ways to understand and design these interactions and experiences in the real world and beyond academia.*
-
-### We would like to learn and join the journey
-
-What are your thoughts on this? Our explorations have revealed numerous exciting opportunities we could pursue together—always keeping your business needs in mind and staying grounded in realistic possibilities. If there's interest, we'll share our initial high-level learnings in upcoming posts.
+What are your thoughts on this? Our explorations have revealed numerous exciting opportunities we could pursue together - always keeping your business needs in mind and staying grounded in realistic possibilities. If there's interest, we'll share our initial high-level learnings in upcoming posts.
