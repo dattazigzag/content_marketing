@@ -78,8 +78,8 @@ By addressing these pain points, we're enabling developers to focus on what trul
 The entire project is open-source and available on [GitHub](https://github.com/dattazigzag/EI_ESP32_CAM_SERVER). The repository includes:
 
 - Complete source code for the ESP32-CAM server
-- Step-by-step setup instructions
-- Example datasets and use cases
+- Latest compiled firmware with a webflasher 
+- Step-by-step setup instructions on various gotchas
 - Troubleshooting guides for common issues
 
 ![alt text](<assets/Screenshot 2025-02-26 at 00.19.24.png>)
