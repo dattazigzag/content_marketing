@@ -9,6 +9,9 @@ In our previous articles ([Part 1](https://www.linkedin.com/pulse/beyond-llms-br
 
 Our current proof-of-concept and tool implementation will focus on vision-based TinyML. Future updates will include support for audio data, accelerometer readings, and other sensor fusion applications - creating a comprehensive edge AI development platform.
 
+![alt text](assets/AiTHinkerCamContraption.png)
+
+
 ## The Challenge: Data Collection for Edge AI ⚠️
 
 One of the biggest hurdles in deploying machine learning models on edge devices is efficient data collection. Before you can train a powerful model, you need quality data - and lots of it. This process can be tedious, especially when working with visual data from micro-controllers.
@@ -47,6 +50,8 @@ While various camera options exist in the edge AI ecosystem - including [SIPEED 
 2. **Accessibility**: Widely available and supported by a large community
 3. **Capability**: Despite its small size and low cost, it offers a surprisingly capable 2MP OV2640 camera
 4. **Versatility**: The ESP32 micro-controller provides Wi-Fi connectivity, making it ideal for our server approach
+
+![alt text](xiao_with_cooling_contraption_and_gorilla_po_mount_render.png)
 
 ### How Our Tool Works ⚙️
 
