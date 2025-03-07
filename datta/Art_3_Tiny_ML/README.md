@@ -1,7 +1,8 @@
 # Beyond LLMs: Bridging the Gap Between Machine Learning and the Physical World - Part III - Simplifying Edge AI Development with ESP32-CAM 🚀
 
-[header image]
-![alt text](assets/PXL_20250224_233042468.PORTRAIT.jpg)
+
+![alt text](<assets/LinkedIn Post Banner.png>)
+> 👆🏼 header image
 
 In our previous articles ([Part 1](https://www.linkedin.com/pulse/beyond-llms-bridging-gap-between-machine-learning-physical-p2mde/?trackingId=sKysxhm8DnCIcDfVqIgpPw%3D%3D) and [Part 2](https://www.linkedin.com/pulse/beyond-llms-bridging-gap-between-machine-learning-physical-cwaee/?trackingId=PA2T31JRKSmbr3Gov2Z2Ag%3D%3D)), we explored the exciting frontier where machine learning meets the physical world through edge devices. Today, I'm thrilled to share our prototype demo that simplifies the preparation and pre-training process for Edge Impulse projects.
 
@@ -9,8 +10,17 @@ In our previous articles ([Part 1](https://www.linkedin.com/pulse/beyond-llms-br
 
 Our current proof-of-concept and tool implementation will focus on vision-based TinyML. Future updates will include support for audio data, accelerometer readings, and other sensor fusion applications - creating a comprehensive edge AI development platform.
 
-![alt text](assets/AiTHinkerCamContraption.png)
+![alt text](assets/xiao.png)
 
+> Xiao with custom mount and colling contraption
+
+<br>
+<br>
+
+![alt text](assets/AiTHinkerCamContraption.png)
+![alt text](assets/aithinkercam_cooling_setup_view_1.png)
+
+> AI Thinker Cam with custom mount and colling contraption
 
 ## The Challenge: Data Collection for Edge AI ⚠️
 
@@ -51,8 +61,6 @@ While various camera options exist in the edge AI ecosystem - including [SIPEED 
 3. **Capability**: Despite its small size and low cost, it offers a surprisingly capable 2MP OV2640 camera
 4. **Versatility**: The ESP32 micro-controller provides Wi-Fi connectivity, making it ideal for our server approach
 
-![alt text](xiao_with_cooling_contraption_and_gorilla_po_mount_render.png)
-
 ### How Our Tool Works ⚙️
 
 Our ESP32-CAM Server was born from a real frustration: the tedious process of capturing, organizing, and labeling hundreds of images for edge AI training. After spending countless hours manually photographing objects, transferring images, and structuring datasets for an Edge Impulse project, I knew there had to be a better way.
@@ -77,6 +85,14 @@ This tool addresses critical gaps in the edge AI development workflow:
 - **Works Anywhere**: No cloud dependencies or internet connection required after initial setup
 
 By addressing these pain points, we're enabling developers to focus on what truly matters: creating and refining innovative edge AI solutions that solve real-world problems across industries.
+
+![alt text](<assets/Screenshot 2025-03-07 at 13.21.23.png>)
+
+> Web flasher for firmware
+
+![alt text](<assets/Screenshot 2025-03-07 at 13.23.57.png>)
+
+> WiFi configuration panel after flashing
 
 ## Getting Started 🚦
 
