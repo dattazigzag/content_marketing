@@ -1,6 +1,5 @@
 # Beyond LLMs: Bridging the Gap Between Machine Learning and the Physical World - Part III - Simplifying Edge AI Development with ESP32-CAM 🚀
 
-
 ![alt text](<assets/LinkedIn Post Banner.png>)
 > 👆🏼 header image
 
@@ -32,25 +31,29 @@ Many brilliant engineers and developers find themselves stuck in this preparatio
 
 Having leveraged [Edge Impulse](https://edgeimpulse.com/) extensively in the past—primarily for audio processing and sensor data projects—I can confidently say this platform revolutionizes TinyML development.
 
-[Edge Impulse](https://edgeimpulse.com/) elegantly streamlines the entire machine learning workflow for both beginners and industrial applications. By integrating core technologies like TensorFlow Lite while providing an intuitive interface for data collection, training, and deployment across diverse micro-controllers, it removes significant barriers to entry. 
+[Edge Impulse](https://edgeimpulse.com/) elegantly streamlines the entire machine learning workflow for both beginners and industrial applications. By integrating core technologies like TensorFlow Lite while providing an intuitive interface for data collection, training, and deployment across diverse micro-controllers, it removes significant barriers to entry.
 
-What truly sets [Edge Impulse](https://edgeimpulse.com/) apart is its comprehensive [API stack](https://docs.edgeimpulse.com/reference) and [remote management protocol](https://docs.edgeimpulse.com/reference/remote-management/remote-management-websocket), which we'll be utilizing as the foundation for our solution. 
+What truly sets [Edge Impulse](https://edgeimpulse.com/) apart is its comprehensive [API stack](https://docs.edgeimpulse.com/reference) and [remote management protocol](https://docs.edgeimpulse.com/reference/remote-management/remote-management-websocket), which we'll be utilizing as the foundation for our solution.
 
 This powerful combination of accessibility and capability makes it the perfect platform for our edge AI implementation journey.
 
-### Our Current Focus: ML Ops - The DevOps of Machine Learning 🔄
+But some data collection is not so straight forward ...
 
-We're currently focused on ML Ops—think of it as DevOps specifically designed for machine learning projects. Just as DevOps streamlined software development, ML Ops brings that same efficiency to AI development by automating and optimizing the entire machine learning lifecycle. Whether you're a developer, business leader, or just AI-curious, ML Ops is the critical infrastructure that turns promising AI models into reliable, production-ready systems that deliver real value.
+![alt text](assets/edge-impulse-daemon-failing.gif)
 
-![alt text](assets/mlops_image.png)
+> edge-impulse-daemon (post flashing the exported binary and locally compiling and flashing) with Official ESP-EYE has some issues to be just yet beginner friendly
 
-src: [docs.edgeimpulse.com/docs/concepts/edge-ai-fundamentals/what-is-edge-mlops](https://docs.edgeimpulse.com/docs/concepts/edge-ai-fundamentals/what-is-edge-mlops)
+<br>
+
+![alt text](assets/web-serial-is-working-but-preview-and-upload-is-slow.gif)
+
+> The data collection through webserial process, from the studio works, but stream over serial is of course very slow and moreover sitting there taking images one by one would take a lot of time.
 
 ## Introducing Our Solution: ESP32-CAM Server 💡
 
 We've developed a streamlined tool that makes camera data collection for Edge Impulse projects remarkably simple. Our solution leverages the affordable ESP32-CAM (xiao esp32-s3) module to create a powerful data collection server.
 
-### Why ESP32-CAM?
+### Why ESP32-CAM though?
 
 While various camera options exist in the edge AI ecosystem - including [SIPEED modules](https://sipeed.com/solution), [Arduino Nicla Vision](https://docs.arduino.cc/hardware/nicla-vision), [industrial-grade Protenta](https://www.arduino.cc/pro/hardware-product-portenta-vision-shield/), and [OpenMV cameras](https://openmv.io/?srsltid=AfmBOoosgB-C9MItnlP3IU2b9ZFk1MMIADtriZtira1mYrOw5Ea5YgUw), [ESP-EYE](https://www.espressif.com/en/products/devkits/esp-eye/overview), [esp32 AI Thinker CAM](https://www.berrybase.de/esp32-cam-development-board-inkl.-ov2640-kameramodul) amnd many more - we chose the [Seeed Studio's XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) for several compelling reasons:
 
@@ -76,7 +79,6 @@ The tool transforms this cumbersome process through an intuitive web interface:
 5. **Export**: Package your dataset with a single click for direct import into Edge Impulse
 
 ![alt text](assets/ScreenRecording2025-02-25at23.09.52.gif)
-
 
 ## Real-World Impact 🌍
 
@@ -105,6 +107,14 @@ The entire project is open-source and available on [GitHub](https://github.com/d
 - Troubleshooting guides for common issues
 
 ![alt text](<assets/Screenshot 2025-02-26 at 00.19.24.png>)
+
+### Our Current Focus: ML Ops - The DevOps of Machine Learning 🔄
+
+We're currently focused on ML Ops—think of it as DevOps specifically designed for machine learning projects. Just as DevOps streamlined software development, ML Ops brings that same efficiency to AI development by automating and optimizing the entire machine learning lifecycle. Whether you're a developer, business leader, or just AI-curious, ML Ops is the critical infrastructure that turns promising AI models into reliable, production-ready systems that deliver real value.
+
+![alt text](assets/mlops_image.png)
+
+src: [docs.edgeimpulse.com/docs/concepts/edge-ai-fundamentals/what-is-edge-mlops](https://docs.edgeimpulse.com/docs/concepts/edge-ai-fundamentals/what-is-edge-mlops)
 
 ## What's Next? 🔮
 
