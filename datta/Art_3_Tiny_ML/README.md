@@ -50,8 +50,6 @@ src: [docs.edgeimpulse.com/docs/concepts/edge-ai-fundamentals/what-is-edge-mlops
 
 We've developed a streamlined tool that makes camera data collection for Edge Impulse projects remarkably simple. Our solution leverages the affordable ESP32-CAM (xiao esp32-s3) module to create a powerful data collection server.
 
-![alt text](assets/ScreenRecording2025-02-25at23.09.52.gif)
-
 ### Why ESP32-CAM?
 
 While various camera options exist in the edge AI ecosystem - including [SIPEED modules](https://sipeed.com/solution), [Arduino Nicla Vision](https://docs.arduino.cc/hardware/nicla-vision), [industrial-grade Protenta](https://www.arduino.cc/pro/hardware-product-portenta-vision-shield/), and [OpenMV cameras](https://openmv.io/?srsltid=AfmBOoosgB-C9MItnlP3IU2b9ZFk1MMIADtriZtira1mYrOw5Ea5YgUw), [ESP-EYE](https://www.espressif.com/en/products/devkits/esp-eye/overview), [esp32 AI Thinker CAM](https://www.berrybase.de/esp32-cam-development-board-inkl.-ov2640-kameramodul) amnd many more - we chose the [Seeed Studio's XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) for several compelling reasons:
@@ -60,6 +58,10 @@ While various camera options exist in the edge AI ecosystem - including [SIPEED 
 2. **Accessibility**: Widely available and supported by a large community
 3. **Capability**: Despite its small size and low cost, it offers a surprisingly capable 2MP OV2640 camera
 4. **Versatility**: The ESP32 micro-controller provides Wi-Fi connectivity, making it ideal for our server approach
+
+> Currently Our data collection firmware supports 3 popular esp32 based camera boards
+
+![alt text](<assets/Screenshot 2025-03-09 at 11.50.24.png>)
 
 ### How Our Tool Works ⚙️
 
@@ -73,6 +75,9 @@ The tool transforms this cumbersome process through an intuitive web interface:
 4. **Organize**: Images are instantly sorted into appropriate training/testing directories
 5. **Export**: Package your dataset with a single click for direct import into Edge Impulse
 
+![alt text](assets/ScreenRecording2025-02-25at23.09.52.gif)
+
+
 ## Real-World Impact 🌍
 
 This tool addresses critical gaps in the edge AI development workflow:
@@ -85,10 +90,6 @@ This tool addresses critical gaps in the edge AI development workflow:
 - **Works Anywhere**: No cloud dependencies or internet connection required after initial setup
 
 By addressing these pain points, we're enabling developers to focus on what truly matters: creating and refining innovative edge AI solutions that solve real-world problems across industries.
-
-![alt text](<assets/Screenshot 2025-03-07 at 13.21.23.png>)
-
-> Web flasher for firmware
 
 ![alt text](<assets/Screenshot 2025-03-07 at 13.23.57.png>)
 
